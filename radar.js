@@ -21,7 +21,7 @@ radar.add(pv.Label)
   .font("14px sans-serif")
   .add(pv.Label)
     .top(910)
-    .text("christian.hardenberg@deliveryhero.com")
+    .text("contact Christian Hardenberg")
     .textStyle("blue")
     .font("14px monospace")
 
