@@ -1,12 +1,12 @@
 # Delivery Hero Tech Radar
 
-The **Delivery Hero Tech Radar** (fork of the the [Zalando Tech Radar](http://zalando.github.io/tech-radar/)) a tool to inspire and support teams to pick the best technologies for new projects. Based on the ideas of [ThoughtWorks](https://www.thoughtworks.com/radar), our Tech Radar sets out the changes in technologies that are interesting in software development: changes that we think our engineering teams should pay attention to and consider using in their projects.
+The **Delivery Hero Tech Radar** (fork of the the [Zalando Tech Radar](http://zalando.github.io/tech-radar/)) is a tool to inspire and support teams to pick the best technologies for new projects. Based on the ideas of [ThoughtWorks](https://www.thoughtworks.com/radar), our Tech Radar maps out the current thinking of our tech leaders on the technology landscape.
 
 This repository shares:
 
 * the *visualization* of the latest Delivery Hero Tech Radar release, including a short summary of what it includes and how we are using it;
 
-* *code* for generating the Tech Radar visualization from a simple tabular representation (tsv). The visualization code is based on the [Protovis JavaScript visualization library](http://mbostock.github.io/protovis/) and a fork of [Brett Dargan's Tech Radar visualization tool](https://github.com/bdargan/techradar). We've optimized the layout to make the chart and explanations fit on a double-sided sheet of A4 paper.
+* *code* for generating the Tech Radar visualization from a simple tabular representation (tsv). The visualization code is based on the [Protovis JavaScript visualization library](http://mbostock.github.io/protovis/) and a fork of [Brett Dargan's Tech Radar visualization tool](https://github.com/bdargan/techradar).
 
 
 ## Cool. How can I make my own?
