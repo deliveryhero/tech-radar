@@ -9,7 +9,7 @@ var radar = new pv.Panel()
 radar.add(pv.Label)
   .left(40)
   .top(78)
-  .text("Delivery Hero Tech Radar — May 2018")
+  .text("Delivery Hero Tech Radar — CTO Summit November 2019")
   .font("40px sans-serif");
 
 // contact info

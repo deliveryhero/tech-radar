@@ -44,100 +44,116 @@ var radar_data = [
     "color" : "#8FA227",
     "items" : [
   {
-    "name": "OpenAPI (Swagger)",
+    "name": "Airflow",
+    "pc": {
+      "r": 100,
+      "t": 165
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Google Data Studio",
     "pc": {
       "r": 114,
       "t": 100
     },
-    "movement": "c"
-  },
-  {
-    "name": "AngularJS 1.x",
-    "pc": {
-      "r": 295,
-      "t": 156
-    },
-    "movement": "c"
-  },
-  {
-    "name": "BackboneJS",
-    "pc": {
-      "r": 260,
-      "t": 106
-    },
-    "movement": "c"
-  },
-  {
-    "name": "PHP Symfony",
-    "pc": {
-      "r": 234,
-      "t": 166
-    },
     "movement": "t"
+  },
+  {
+    "name": "ReactJS",
+    "pc": {
+      "r": 58,
+      "t": 126
+    },
+    "movement": "c"
   },
   {
     "name": "Akka (Scala)",
     "pc": {
-      "r": 187,
-      "t": 134
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Angular",
-    "pc": {
-      "r": 154,
-      "t": 110
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Ember.js",
-    "pc": {
-      "r": 168,
-      "t": 98
+      "r": 294,
+      "t": 146
     },
     "movement": "t"
   },
   {
-    "name": "jQuery",
+    "name": "Angular",
     "pc": {
-      "r": 152,
-      "t": 146
+      "r": 375,
+      "t": 126
     },
-    "movement": "c"
+    "movement": "t"
   },
   {
-    "name": "Maven",
+    "name": "Play (Java)",
     "pc": {
-      "r": 191,
+      "r": 333,
+      "t": 174
+    },
+    "movement": "t"
+  },
+  {
+    "name": "CircleCI",
+    "pc": {
+      "r": 146,
       "t": 158
     },
-    "movement": "c"
+    "movement": "t"
+  },
+  {
+    "name": "Jenkins",
+    "pc": {
+      "r": 158,
+      "t": 122
+    },
+    "movement": "t"
+  },
+  {
+    "name": "k6",
+    "pc": {
+      "r": 201,
+      "t": 110
+    },
+    "movement": "t"
   },
   {
     "name": "Node.js",
     "pc": {
-      "r": 150,
+      "r": 168,
       "t": 170
     },
     "movement": "c"
   },
   {
-    "name": "ReactJS",
+    "name": "OpenAPI (Swagger)",
     "pc": {
-      "r": 199,
-      "t": 122
+      "r": 149,
+      "t": 98
     },
     "movement": "t"
   },
   {
     "name": "Spring / Spring Boot",
     "pc": {
-      "r": 199,
-      "t": 116
+      "r": 205,
+      "t": 146
     },
     "movement": "c"
+  },
+  {
+    "name": "TravisCI",
+    "pc": {
+      "r": 178,
+      "t": 134
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Vue.js",
+    "pc": {
+      "r": 178,
+      "t": 140
+    },
+    "movement": "t"
   }
 ]
   },
@@ -148,170 +164,186 @@ var radar_data = [
     "color" : "#587486",
     "items" : [
   {
-    "name": "AWS S3",
+    "name": "AWS AURORA",
     "pc": {
-      "r": 114,
-      "t": 10
+      "r": 66,
+      "t": 49
     },
-    "movement": "c"
+    "movement": "t"
+  },
+  {
+    "name": "AWS DynamoDB",
+    "pc": {
+      "r": 77,
+      "t": 62
+    },
+    "movement": "t"
   },
   {
     "name": "AWS SNS",
     "pc": {
-      "r": 105,
-      "t": 62
+      "r": 53,
+      "t": 36
     },
     "movement": "c"
   },
   {
     "name": "AWS SQS",
     "pc": {
-      "r": 90,
-      "t": 75
-    },
-    "movement": "c"
-  },
-  {
-    "name": "ElasticSearch",
-    "pc": {
-      "r": 68,
+      "r": 109,
       "t": 23
     },
-    "movement": "t"
-  },
-  {
-    "name": "PostgreSQL",
-    "pc": {
-      "r": 76,
-      "t": 49
-    },
     "movement": "c"
   },
   {
-    "name": "Redis",
+    "name": "Google BigQuery",
     "pc": {
-      "r": 61,
-      "t": 36
-    },
-    "movement": "c"
-  },
-  {
-    "name": "CouchBase",
-    "pc": {
-      "r": 361,
-      "t": 4
-    },
-    "movement": "t"
-  },
-  {
-    "name": "ActiveMQ",
-    "pc": {
-      "r": 173,
-      "t": 20
-    },
-    "movement": "c"
-  },
-  {
-    "name": "AWS DynamoDB",
-    "pc": {
-      "r": 168,
-      "t": 68
-    },
-    "movement": "c"
-  },
-  {
-    "name": "AWS Kinesis",
-    "pc": {
-      "r": 151,
-      "t": 44
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Cassandra",
-    "pc": {
-      "r": 148,
-      "t": 8
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Hadoop/HDFS",
-    "pc": {
-      "r": 207,
-      "t": 32
-    },
-    "movement": "c"
-  },
-  {
-    "name": "InfluxDB",
-    "pc": {
-      "r": 168,
-      "t": 56
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Kafka",
-    "pc": {
-      "r": 170,
-      "t": 80
-    },
-    "movement": "c"
-  },
-  {
-    "name": "MemCached",
-    "pc": {
-      "r": 181,
-      "t": 74
-    },
-    "movement": "c"
-  },
-  {
-    "name": "MongoDB",
-    "pc": {
-      "r": 165,
-      "t": 38
+      "r": 91,
+      "t": 75
     },
     "movement": "c"
   },
   {
     "name": "MySQL",
     "pc": {
-      "r": 190,
-      "t": 62
+      "r": 100,
+      "t": 10
+    },
+    "movement": "t"
+  },
+  {
+    "name": "PostgreSQL",
+    "pc": {
+      "r": 116,
+      "t": 16
     },
     "movement": "c"
   },
   {
-    "name": "Oracle DB",
+    "name": "Redis",
     "pc": {
-      "r": 209,
-      "t": 50
+      "r": 56,
+      "t": 55
+    },
+    "movement": "c"
+  },
+  {
+    "name": "AWS Redshift",
+    "pc": {
+      "r": 276,
+      "t": 76
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Hadoop/HBase",
+    "pc": {
+      "r": 263,
+      "t": 66
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Kafka",
+    "pc": {
+      "r": 235,
+      "t": 56
+    },
+    "movement": "t"
+  },
+  {
+    "name": "MemCached",
+    "pc": {
+      "r": 247,
+      "t": 16
+    },
+    "movement": "t"
+  },
+  {
+    "name": "MongoDB",
+    "pc": {
+      "r": 261,
+      "t": 46
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Solr",
+    "pc": {
+      "r": 258,
+      "t": 36
+    },
+    "movement": "t"
+  },
+  {
+    "name": "ActiveMQ",
+    "pc": {
+      "r": 328,
+      "t": 76
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Aerospike",
+    "pc": {
+      "r": 386,
+      "t": 4
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Cassandra",
+    "pc": {
+      "r": 355,
+      "t": 20
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Neo4j",
+    "pc": {
+      "r": 359,
+      "t": 36
     },
     "movement": "t"
   },
   {
     "name": "RabbitMQ",
     "pc": {
-      "r": 179,
-      "t": 14
+      "r": 385,
+      "t": 12
+    },
+    "movement": "t"
+  },
+  {
+    "name": "AWS Kinesis",
+    "pc": {
+      "r": 154,
+      "t": 56
     },
     "movement": "c"
   },
   {
-    "name": "Solr",
+    "name": "Elasticsearch",
     "pc": {
-      "r": 180,
-      "t": 26
+      "r": 164,
+      "t": 44
     },
-    "movement": "c"
+    "movement": "t"
+  },
+  {
+    "name": "MSSQL",
+    "pc": {
+      "r": 197,
+      "t": 8
+    },
+    "movement": "t"
   },
   {
     "name": "Spark",
     "pc": {
-      "r": 164,
-      "t": 0
+      "r": 153,
+      "t": 32
     },
     "movement": "c"
   }
@@ -326,130 +358,130 @@ var radar_data = [
   {
     "name": "AWS Lambda",
     "pc": {
-      "r": 74,
-      "t": 216
+      "r": 71,
+      "t": 203
     },
     "movement": "c"
   },
   {
+    "name": "Datadog",
+    "pc": {
+      "r": 57,
+      "t": 255
+    },
+    "movement": "t"
+  },
+  {
     "name": "Docker",
     "pc": {
-      "r": 66,
+      "r": 104,
       "t": 242
     },
     "movement": "c"
   },
   {
-    "name": "Kubernetes",
+    "name": "Helm",
     "pc": {
-      "r": 101,
-      "t": 190
+      "r": 82,
+      "t": 216
     },
-    "movement": "c"
+    "movement": "t"
   },
   {
-    "name": "Nginx",
+    "name": "Kubernetes",
     "pc": {
-      "r": 70,
-      "t": 203
+      "r": 92,
+      "t": 229
     },
     "movement": "c"
   },
   {
     "name": "Terraform",
     "pc": {
-      "r": 101,
-      "t": 255
+      "r": 69,
+      "t": 190
     },
     "movement": "c"
   },
   {
-    "name": "log4j",
+    "name": "istio",
     "pc": {
-      "r": 232,
-      "t": 236
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Puppet",
-    "pc": {
-      "r": 246,
-      "t": 226
-    },
-    "movement": "c"
-  },
-  {
-    "name": "JBoss",
-    "pc": {
-      "r": 336,
-      "t": 248
-    },
-    "movement": "c"
-  },
-  {
-    "name": "AWS Cloudformation",
-    "pc": {
-      "r": 173,
-      "t": 188
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Consul",
-    "pc": {
-      "r": 168,
-      "t": 212
-    },
-    "movement": "c"
-  },
-  {
-    "name": "HAProxy",
-    "pc": {
-      "r": 154,
-      "t": 248
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Jetty",
-    "pc": {
-      "r": 172,
+      "r": 270,
       "t": 236
     },
     "movement": "t"
   },
   {
-    "name": "log4j2",
+    "name": "AWS Cloudformation",
     "pc": {
-      "r": 164,
-      "t": 224
+      "r": 372,
+      "t": 192
     },
-    "movement": "c"
+    "movement": "t"
+  },
+  {
+    "name": "GCP AppEngine",
+    "pc": {
+      "r": 352,
+      "t": 200
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Puppet",
+    "pc": {
+      "r": 347,
+      "t": 184
+    },
+    "movement": "t"
   },
   {
     "name": "saltstack",
     "pc": {
-      "r": 197,
+      "r": 388,
+      "t": 240
+    },
+    "movement": "t"
+  },
+  {
+    "name": "AWS KMS",
+    "pc": {
+      "r": 194,
       "t": 260
     },
-    "movement": "c"
+    "movement": "t"
   },
   {
-    "name": "Tomcat",
+    "name": "Cloudflare Workers",
     "pc": {
-      "r": 195,
+      "r": 176,
+      "t": 224
+    },
+    "movement": "t"
+  },
+  {
+    "name": "EKS",
+    "pc": {
+      "r": 205,
+      "t": 188
+    },
+    "movement": "t"
+  },
+  {
+    "name": "New Relic",
+    "pc": {
+      "r": 171,
       "t": 200
     },
-    "movement": "c"
+    "movement": "t"
   },
   {
-    "name": "Zookeeper",
+    "name": "Vault",
     "pc": {
-      "r": 192,
-      "t": 206
+      "r": 159,
+      "t": 248
     },
-    "movement": "c"
+    "movement": "t"
   }
 ]
   },
@@ -460,116 +492,108 @@ var radar_data = [
     "top" :   (h/2 + 38),
     "items" : [
   {
-    "name": "Javascript",
+    "name": "Go",
     "pc": {
-      "r": 52,
-      "t": 306
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Python",
-    "pc": {
-      "r": 107,
-      "t": 280
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Scala",
-    "pc": {
-      "r": 68,
+      "r": 119,
       "t": 345
     },
     "movement": "t"
   },
   {
-    "name": "Swift",
+    "name": "Java",
     "pc": {
-      "r": 52,
+      "r": 74,
+      "t": 332
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Javascript",
+    "pc": {
+      "r": 115,
+      "t": 280
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Kotlin",
+    "pc": {
+      "r": 75,
+      "t": 293
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Python",
+    "pc": {
+      "r": 98,
       "t": 319
     },
     "movement": "c"
   },
   {
-    "name": "C/C++",
+    "name": "Swift",
     "pc": {
-      "r": 276,
-      "t": 326
+      "r": 109,
+      "t": 306
     },
     "movement": "c"
   },
   {
-    "name": "Erlang",
+    "name": ".NET Core",
     "pc": {
-      "r": 294,
-      "t": 276
+      "r": 298,
+      "t": 286
     },
-    "movement": "c"
-  },
-  {
-    "name": "PHP",
-    "pc": {
-      "r": 270,
-      "t": 336
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Perl",
-    "pc": {
-      "r": 364,
-      "t": 330
-    },
-    "movement": "c"
-  },
-  {
-    "name": ".NET / languages",
-    "pc": {
-      "r": 198,
-      "t": 350
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Go",
-    "pc": {
-      "r": 200,
-      "t": 326
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Groovy",
-    "pc": {
-      "r": 196,
-      "t": 314
-    },
-    "movement": "c"
-  },
-  {
-    "name": "Java",
-    "pc": {
-      "r": 149,
-      "t": 338
-    },
-    "movement": "c"
+    "movement": "t"
   },
   {
     "name": "R",
     "pc": {
-      "r": 196,
-      "t": 302
+      "r": 262,
+      "t": 316
     },
-    "movement": "c"
+    "movement": "t"
   },
   {
-    "name": "Ruby",
+    "name": "Grails",
     "pc": {
-      "r": 188,
+      "r": 342,
+      "t": 322
+    },
+    "movement": "t"
+  },
+  {
+    "name": "PHP",
+    "pc": {
+      "r": 333,
+      "t": 338
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Scala",
+    "pc": {
+      "r": 358,
+      "t": 290
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Rails",
+    "pc": {
+      "r": 192,
+      "t": 326
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Typescript",
+    "pc": {
+      "r": 206,
       "t": 278
     },
-    "movement": "c"
+    "movement": "t"
   }
 ]
   }

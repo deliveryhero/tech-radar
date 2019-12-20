@@ -1,0 +1,74 @@
+PostgreSQL	Data Mgt	RDBMS	1.9	10	ADOPT		2	1	2	2	2	2	2	2	2	2
+MySQL	Data Mgt	RDBMS	1.8	9	ADOPT		2	1.5	2	2	1.7		2	2	2	1
+AWS AURORA	Data Mgt	database	2.0	9	ADOPT		2	2	2	2	2	2	2	2		2
+MSSQL	Data Mgt	RDBMS	0.0	4	TRIAL			2	0		0					-2
+Elasticsearch	Data Mgt	NoSql Search DB	0.1	10	TRIAL		-1.5	-1	1	2	-2	2	0	1	-2	1
+Solr	Data Mgt	NoSql Search DB	-0.4	7	ASSESS		-2	2	2		-1	-2		-2		0
+Google BigQuery	Data Mgt	NoSql DB	2.0	8	ADOPT		2		2	2	2	2	2	2		2
+AWS DynamoDB	Data Mgt	NoSql DB	1.7	9	ADOPT		2	1	2	2	2	2	2	2		0
+Cassandra	Data Mgt	NoSql DB	-1.4	5	HOLD				-2		-2	-2	-1			0
+Aerospike	Data Mgt	NoSql DB	-2.0	4	HOLD		-2				-2	-2		-2		
+Hadoop/HBase	Data Mgt	NoSql DB	-0.9	6	ASSESS		-1.6	1	-1		-2	-2				0
+MongoDB	Data Mgt	NoSql DB	-0.8	9	ASSESS		-2	1	-1	0	-2	-2	-1	-2		2
+Redis	Data Mgt	NoSql DB/caching	1.8	10	ADOPT		2	1.5	1	2	2	2	2	1.5	2	2
+MemCached	Data Mgt	caching	-0.4	10	ASSESS		0	1	1	2	-1	-2	-1	-2	0	-2
+AWS Redshift	Data Mgt	Columnar realtional DB for analytics/DWH	-0.5	4	ASSESS		-1			0			-1			0
+AWS Athena	Data Mgt	Query data files in S3 using SQL		2									0			2
+AWS SNS	Data Mgt	messaging service	1.9	8	ADOPT			1	2	2	2		2	2	2	2
+AWS SQS	Data Mgt	message queues	1.9	8	ADOPT			1	2	2	2		2	2	2	2
+Kafka	Data Mgt	message queues	-0.9	7	ASSESS			1	0		-2	-2	-1	-2		0
+Spark	Data Mgt	event processing	0.6	5	TRIAL			1	0		0		2			0
+AWS Kinesis	Data Mgt	event processing	1.0	7	TRIAL		1	1	1		2		1	1		0
+RabbitMQ	Data Mgt	message queues	-1.3	7	HOLD				1		-2	-2	-2	-2	-1	-1
+ActiveMQ	Data Mgt	message queues	-2.0	5	HOLD				-2		-2		-2	-2		-2
+Neo4j	Data Mgt	Graph DB	-1.5	4	HOLD				-1		-1	-2				-2
+Hadoop/HDFS	Data Mgt	distributed storage		3					-1		-2					-2
+Go	Languages	impl. language	1.8	8	ADOPT		2	0.5	2	2	2	2		2		2
+Python	Languages	impl. language	1.9	9	ADOPT		2	1	2		2	2	2	2	2	2
+Javascript	Languages	impl. language	1.8	10	ADOPT		2	2	2	2	2	2	2	0	2	2
+Typescript	Languages	impl. language	1.0	6	TRIAL		1		1		0		1	2		1
+Java	Languages	impl. language	1.9	9	ADOPT		2		2	2	2	2	2	2	2	1
+Scala	Languages	impl. language	-1.4	7	HOLD		-2		0		-2	-2	0	-2		-2
+Swift	Languages	impl. language	2.0	9	ADOPT		2	2	2	2	2		2	2	2	2
+Kotlin	Languages	language on the JVM	1.8	8	ADOPT		1.7	1.5	2	2	1		2	2		2
+.NET Core	Languages	.NET software appl platform including .NET based programming languages like C#, F#	-0.6	6	ASSESS		0.7	2	-1		-2			-1		-2
+R	Languages	impl. language	-0.1	7	ASSESS			1	0	1	-1	-2			2	-2
+Grails	Languages	impl. language	-1.8	5	HOLD				-1	-2	-2			-2		-2
+PHP	Languages		-1.7	7	HOLD		-2		-2		-2	-2	-2	-2		0
+Rails	Languages	Ruby framework	0.5	6	TRIAL		0.5				2		2	-1.5	2	-2
+Docker	Platforms & Infrastructure	Container/Deployment	1.9	9	ADOPT		2	1.5	2	2	2	2	2	2		2
+Kubernetes	Platforms & Infrastructure	cluster resource manager	2.0	10	ADOPT		2	1.5	2	2	2	2	2	2	2	2
+Helm	Platforms & Infrastructure	Kubernetes App config	2.0	4	ADOPT		2				2		2	2		
+EKS	Platforms & Infrastructure	managed Kubernetes	1.4	8	TRIAL		2	1	2		2	2	1	1		0
+istio	Platforms & Infrastructure	service mesh	-0.2	6	ASSESS		1				-1	-1	-1	1		0
+AWS Lambda	Platforms & Infrastructure	computing service	1.6	9	ADOPT		2	1.5	2	2	2	2	1	0		2
+Cloudflare Workers	Platforms & Infrastructure	Similar to lambda, but in Cloudflare	1.4	5	TRIAL		1				1	2		1		2
+GCP AppEngine	Platforms & Infrastructure	Managed Web Apps	-2.0	5	HOLD		-2		-2		-2			-2		-2
+Vault	Platforms & Infrastructure	Secrets Management	1.3	9	TRIAL		1.5	1	2	2	-1	2		1	1	2
+AWS KMS	Platforms & Infrastructure	Secrets Management	1.4	7	TRIAL		1.5	1	1		2		1	1		2
+Puppet	Platforms & Infrastructure	infrastructure management	-1.3	8	HOLD		-1.5	1	0		-2	-2	-2	-2		-2
+saltstack	Platforms & Infrastructure	infrastructure management	-1.3	4	HOLD				1		-2	-2		-2		
+Terraform	Platforms & Infrastructure	infrastructure management	2.0	9	ADOPT		2	2	2	2	2	2	2	2		2
+AWS Cloudformation	Platforms & Infrastructure	infrastructure manager	-1.9	7	HOLD		-2			-2	-2	-2	-1	-2		-2
+New Relic	Platforms & Infrastructure	APM, Infra Monitoring	1.1	10	TRIAL		0	0.5	2	2	-2	1	2	2	1	2
+Datadog	Platforms & Infrastructure	APM, Infra Monitoring, Logging	1.8	8	ADOPT			1	1	2	2	2	2	2		2
+ReactJS	Techniques; Frameworks & Tools	JS framework for SPA	1.8	9	ADOPT		2	0.5	2	2	2	2	2	2		2
+Node.js	Techniques; Frameworks & Tools	server-side JS	0.9	7	TRIAL		1		1	2	-1		2	0		1
+Vue.js	Techniques; Frameworks & Tools	JS framework	0.5	5	TRIAL		-0.5		2		-2			1		2
+Angular	Techniques; Frameworks & Tools	JS framework	-1.4	8	HOLD		-2	0.5	-1		-2		-2	-1	-2	-2
+OpenAPI (Swagger)	Techniques; Frameworks & Tools	rest api frw	1.2	6	TRIAL				1	2	2		2	2		-2
+Akka (Scala)	Techniques; Frameworks & Tools		-0.2	5	ASSESS				1		0	-2	2			-2
+Play (Java)	Techniques; Frameworks & Tools		-2.0	5	HOLD					-2	-2	-2	-2			-2
+Spring / Spring Boot	Techniques; Frameworks & Tools	impl. frw mixed	1.2	5	TRIAL				1	2			2	1		0
+Google Data Studio	Techniques; Frameworks & Tools	Dashboards adn reports	2.0	10	ADOPT		2	2	2	2	2	2	2	2	2	2
+Webpack	Techniques; Frameworks & Tools	Build Automation		2										1		1
+Tensorflow	Techniques; Frameworks & Tools	ML DL framework both low & high level		2					1							0
+Jupyter	Techniques; Frameworks & Tools	Interactive data dev & visualization for Python, R and others		2								2	2			
+Airflow	Techniques; Frameworks & Tools		1.7	6	ADOPT				1		2	2	2	1		2
+k6	Techniques; Frameworks & Tools	load testing framework	1.3	4	TRIAL		1					2		2		0
+cypress.io	Techniques; Frameworks & Tools	frontend testing		3			2					2		2		
+gRPC	Techniques; Frameworks & Tools	rpc 		3								2		0		2
+TravisCI	Techniques; Frameworks & Tools	CI/CD	0.0	4	TRIAL		2					1		-1		-2
+CircleCI	Techniques; Frameworks & Tools	CI/CD	1.3	4	TRIAL		2					1		2		0
+Jenkins	Techniques; Frameworks & Tools	CI/CD	0.3	4	TRIAL		0					1		-1		1
+Drone.io	Techniques; Frameworks & Tools	CI/CD		3			0							2		1
