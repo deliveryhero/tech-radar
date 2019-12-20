@@ -150,7 +150,7 @@ class Radar
   end
 end
 
-files = Dir["data/*.tsv"]
+files = Dir["data/*.tsv"].sort
 radar = Radar.new(files.pop)
 previous = files.pop
 radar.track_moves(Radar.new(previous)) if previous
