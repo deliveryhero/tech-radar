@@ -46,31 +46,47 @@ var radar_data = [
   {
     "name": "Airflow",
     "pc": {
-      "r": 100,
-      "t": 165
+      "r": 92,
+      "t": 126
     },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "Google Data Studio",
     "pc": {
-      "r": 114,
-      "t": 100
+      "r": 82,
+      "t": 165
+    },
+    "movement": "c"
+  },
+  {
+    "name": "OpenAPI (Swagger)",
+    "pc": {
+      "r": 52,
+      "t": 139
     },
     "movement": "t"
   },
   {
     "name": "ReactJS",
     "pc": {
-      "r": 58,
-      "t": 126
+      "r": 50,
+      "t": 152
     },
     "movement": "c"
   },
   {
     "name": "Akka (Scala)",
     "pc": {
-      "r": 294,
+      "r": 268,
+      "t": 96
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Play (Java, Scala)",
+    "pc": {
+      "r": 243,
       "t": 146
     },
     "movement": "t"
@@ -78,56 +94,80 @@ var radar_data = [
   {
     "name": "Angular",
     "pc": {
-      "r": 375,
-      "t": 126
+      "r": 194,
+      "t": 170
     },
     "movement": "t"
   },
   {
-    "name": "Play (Java)",
+    "name": "Avro/JSON",
     "pc": {
-      "r": 333,
-      "t": 174
+      "r": 207,
+      "t": 146
     },
     "movement": "t"
   },
   {
     "name": "CircleCI",
     "pc": {
-      "r": 146,
+      "r": 143,
       "t": 158
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Drone.io",
+    "pc": {
+      "r": 204,
+      "t": 122
+    },
+    "movement": "t"
+  },
+  {
+    "name": "gRPC",
+    "pc": {
+      "r": 164,
+      "t": 110
     },
     "movement": "t"
   },
   {
     "name": "Jenkins",
     "pc": {
-      "r": 158,
-      "t": 122
+      "r": 201,
+      "t": 98
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Jupyter",
+    "pc": {
+      "r": 156,
+      "t": 134
     },
     "movement": "t"
   },
   {
     "name": "k6",
     "pc": {
-      "r": 201,
-      "t": 110
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Node.js",
-    "pc": {
-      "r": 168,
-      "t": 170
+      "r": 196,
+      "t": 116
     },
     "movement": "c"
   },
   {
-    "name": "OpenAPI (Swagger)",
+    "name": "Node.js",
     "pc": {
-      "r": 149,
-      "t": 98
+      "r": 177,
+      "t": 104
+    },
+    "movement": "c"
+  },
+  {
+    "name": "protobuf",
+    "pc": {
+      "r": 188,
+      "t": 140
     },
     "movement": "t"
   },
@@ -135,25 +175,25 @@ var radar_data = [
     "name": "Spring / Spring Boot",
     "pc": {
       "r": 205,
-      "t": 146
+      "t": 164
     },
     "movement": "c"
   },
   {
-    "name": "TravisCI",
+    "name": "Tensorflow",
     "pc": {
-      "r": 178,
-      "t": 134
+      "r": 194,
+      "t": 128
     },
     "movement": "t"
   },
   {
     "name": "Vue.js",
     "pc": {
-      "r": 178,
-      "t": 140
+      "r": 204,
+      "t": 152
     },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   },
@@ -164,186 +204,186 @@ var radar_data = [
     "color" : "#587486",
     "items" : [
   {
-    "name": "AWS AURORA",
-    "pc": {
-      "r": 66,
-      "t": 49
-    },
-    "movement": "t"
-  },
-  {
     "name": "AWS DynamoDB",
     "pc": {
-      "r": 77,
-      "t": 62
+      "r": 80,
+      "t": 75
     },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "AWS SNS",
     "pc": {
-      "r": 53,
-      "t": 36
+      "r": 81,
+      "t": 49
     },
     "movement": "c"
   },
   {
     "name": "AWS SQS",
     "pc": {
-      "r": 109,
-      "t": 23
+      "r": 82,
+      "t": 36
     },
     "movement": "c"
   },
   {
     "name": "Google BigQuery",
     "pc": {
-      "r": 91,
-      "t": 75
+      "r": 84,
+      "t": 23
     },
     "movement": "c"
   },
   {
-    "name": "MySQL",
+    "name": "MemCached",
     "pc": {
-      "r": 100,
+      "r": 112,
+      "t": 62
+    },
+    "movement": "t"
+  },
+  {
+    "name": "PostgreSQL ",
+    "pc": {
+      "r": 62,
       "t": 10
     },
     "movement": "t"
   },
   {
-    "name": "PostgreSQL",
-    "pc": {
-      "r": 116,
-      "t": 16
-    },
-    "movement": "c"
-  },
-  {
     "name": "Redis",
     "pc": {
-      "r": 56,
-      "t": 55
+      "r": 86,
+      "t": 29
     },
     "movement": "c"
   },
   {
-    "name": "AWS Redshift",
+    "name": "Cassandra",
     "pc": {
-      "r": 276,
-      "t": 76
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Hadoop/HBase",
-    "pc": {
-      "r": 263,
-      "t": 66
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Kafka",
-    "pc": {
-      "r": 235,
+      "r": 270,
       "t": 56
     },
     "movement": "t"
   },
   {
-    "name": "MemCached",
+    "name": "Hadoop/HDFS",
     "pc": {
-      "r": 247,
-      "t": 16
+      "r": 280,
+      "t": 76
     },
     "movement": "t"
   },
   {
     "name": "MongoDB",
     "pc": {
-      "r": 261,
-      "t": 46
+      "r": 260,
+      "t": 6
     },
-    "movement": "t"
-  },
-  {
-    "name": "Solr",
-    "pc": {
-      "r": 258,
-      "t": 36
-    },
-    "movement": "t"
-  },
-  {
-    "name": "ActiveMQ",
-    "pc": {
-      "r": 328,
-      "t": 76
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Aerospike",
-    "pc": {
-      "r": 386,
-      "t": 4
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Cassandra",
-    "pc": {
-      "r": 355,
-      "t": 20
-    },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "Neo4j",
     "pc": {
-      "r": 359,
-      "t": 36
+      "r": 259,
+      "t": 16
     },
     "movement": "t"
   },
   {
     "name": "RabbitMQ",
     "pc": {
-      "r": 385,
-      "t": 12
+      "r": 290,
+      "t": 36
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Solr",
+    "pc": {
+      "r": 287,
+      "t": 26
+    },
+    "movement": "c"
+  },
+  {
+    "name": "MSSQL",
+    "pc": {
+      "r": 335,
+      "t": 76
+    },
+    "movement": "t"
+  },
+  {
+    "name": "AWS Athena",
+    "pc": {
+      "r": 159,
+      "t": 20
+    },
+    "movement": "t"
+  },
+  {
+    "name": "AWS AURORA",
+    "pc": {
+      "r": 156,
+      "t": 8
     },
     "movement": "t"
   },
   {
     "name": "AWS Kinesis",
     "pc": {
-      "r": 154,
-      "t": 56
+      "r": 156,
+      "t": 32
     },
     "movement": "c"
   },
   {
-    "name": "Elasticsearch",
+    "name": "AWS Redshift",
     "pc": {
-      "r": 164,
-      "t": 44
+      "r": 167,
+      "t": 80
     },
     "movement": "t"
   },
   {
-    "name": "MSSQL",
+    "name": "Elasticsearch",
     "pc": {
-      "r": 197,
-      "t": 8
+      "r": 168,
+      "t": 44
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Google PubSub",
+    "pc": {
+      "r": 161,
+      "t": 56
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Kafka",
+    "pc": {
+      "r": 140,
+      "t": 68
+    },
+    "movement": "t"
+  },
+  {
+    "name": "MySQL",
+    "pc": {
+      "r": 202,
+      "t": 62
     },
     "movement": "t"
   },
   {
     "name": "Spark",
     "pc": {
-      "r": 153,
-      "t": 32
+      "r": 140,
+      "t": 14
     },
     "movement": "c"
   }
@@ -358,93 +398,101 @@ var radar_data = [
   {
     "name": "AWS Lambda",
     "pc": {
-      "r": 71,
-      "t": 203
+      "r": 60,
+      "t": 216
     },
     "movement": "c"
   },
   {
-    "name": "Datadog",
+    "name": "Cloudflare Workers",
     "pc": {
-      "r": 57,
-      "t": 255
+      "r": 65,
+      "t": 229
     },
     "movement": "t"
   },
   {
-    "name": "Docker",
+    "name": "Datadog",
     "pc": {
-      "r": 104,
+      "r": 77,
       "t": 242
     },
     "movement": "c"
   },
   {
-    "name": "Helm",
+    "name": "Docker",
     "pc": {
-      "r": 82,
-      "t": 216
+      "r": 64,
+      "t": 255
+    },
+    "movement": "c"
+  },
+  {
+    "name": "EKS",
+    "pc": {
+      "r": 64,
+      "t": 203
     },
     "movement": "t"
   },
   {
     "name": "Kubernetes",
     "pc": {
-      "r": 92,
-      "t": 229
+      "r": 70,
+      "t": 190
     },
     "movement": "c"
   },
   {
     "name": "Terraform",
     "pc": {
-      "r": 69,
-      "t": 190
+      "r": 82,
+      "t": 196
     },
     "movement": "c"
   },
   {
-    "name": "istio",
+    "name": "Vault",
     "pc": {
-      "r": 270,
-      "t": 236
+      "r": 85,
+      "t": 209
     },
     "movement": "t"
   },
   {
     "name": "AWS Cloudformation",
     "pc": {
-      "r": 372,
-      "t": 192
-    },
-    "movement": "t"
-  },
-  {
-    "name": "GCP AppEngine",
-    "pc": {
-      "r": 352,
-      "t": 200
-    },
-    "movement": "t"
-  },
-  {
-    "name": "Puppet",
-    "pc": {
-      "r": 347,
-      "t": 184
+      "r": 287,
+      "t": 236
     },
     "movement": "t"
   },
   {
     "name": "saltstack",
     "pc": {
-      "r": 388,
-      "t": 240
+      "r": 280,
+      "t": 246
     },
     "movement": "t"
   },
   {
+    "name": "GCP AppEngine",
+    "pc": {
+      "r": 369,
+      "t": 224
+    },
+    "movement": "c"
+  },
+  {
     "name": "AWS KMS",
+    "pc": {
+      "r": 207,
+      "t": 212
+    },
+    "movement": "c"
+  },
+  {
+    "name": "Helm",
     "pc": {
       "r": 194,
       "t": 260
@@ -452,36 +500,20 @@ var radar_data = [
     "movement": "t"
   },
   {
-    "name": "Cloudflare Workers",
+    "name": "istio",
     "pc": {
-      "r": 176,
-      "t": 224
-    },
-    "movement": "t"
-  },
-  {
-    "name": "EKS",
-    "pc": {
-      "r": 205,
-      "t": 188
+      "r": 165,
+      "t": 248
     },
     "movement": "t"
   },
   {
     "name": "New Relic",
     "pc": {
-      "r": 171,
-      "t": 200
+      "r": 147,
+      "t": 236
     },
-    "movement": "t"
-  },
-  {
-    "name": "Vault",
-    "pc": {
-      "r": 159,
-      "t": 248
-    },
-    "movement": "t"
+    "movement": "c"
   }
 ]
   },
@@ -494,39 +526,31 @@ var radar_data = [
   {
     "name": "Go",
     "pc": {
-      "r": 119,
-      "t": 345
+      "r": 66,
+      "t": 306
     },
-    "movement": "t"
-  },
-  {
-    "name": "Java",
-    "pc": {
-      "r": 74,
-      "t": 332
-    },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "Javascript",
     "pc": {
-      "r": 115,
-      "t": 280
+      "r": 79,
+      "t": 293
     },
     "movement": "c"
   },
   {
     "name": "Kotlin",
     "pc": {
-      "r": 75,
-      "t": 293
+      "r": 82,
+      "t": 280
     },
-    "movement": "t"
+    "movement": "c"
   },
   {
     "name": "Python",
     "pc": {
-      "r": 98,
+      "r": 62,
       "t": 319
     },
     "movement": "c"
@@ -534,64 +558,88 @@ var radar_data = [
   {
     "name": "Swift",
     "pc": {
-      "r": 109,
-      "t": 306
+      "r": 113,
+      "t": 345
     },
     "movement": "c"
   },
   {
-    "name": ".NET Core",
+    "name": "Typescript",
     "pc": {
-      "r": 298,
-      "t": 286
+      "r": 91,
+      "t": 332
     },
     "movement": "t"
   },
   {
     "name": "R",
     "pc": {
-      "r": 262,
-      "t": 316
+      "r": 284,
+      "t": 346
     },
-    "movement": "t"
+    "movement": "c"
   },
   {
-    "name": "Grails",
+    "name": "React-Native",
     "pc": {
-      "r": 342,
-      "t": 322
-    },
-    "movement": "t"
-  },
-  {
-    "name": "PHP",
-    "pc": {
-      "r": 333,
-      "t": 338
+      "r": 264,
+      "t": 326
     },
     "movement": "t"
   },
   {
     "name": "Scala",
     "pc": {
-      "r": 358,
-      "t": 290
+      "r": 245,
+      "t": 286
     },
     "movement": "t"
   },
   {
+    "name": "Grails",
+    "pc": {
+      "r": 368,
+      "t": 274
+    },
+    "movement": "c"
+  },
+  {
+    "name": "PHP",
+    "pc": {
+      "r": 352,
+      "t": 330
+    },
+    "movement": "c"
+  },
+  {
     "name": "Rails",
     "pc": {
-      "r": 192,
+      "r": 374,
+      "t": 298
+    },
+    "movement": "t"
+  },
+  {
+    "name": ".NET Core",
+    "pc": {
+      "r": 201,
+      "t": 338
+    },
+    "movement": "t"
+  },
+  {
+    "name": "Flutter",
+    "pc": {
+      "r": 198,
       "t": 326
     },
     "movement": "t"
   },
   {
-    "name": "Typescript",
+    "name": "Java",
     "pc": {
-      "r": 206,
-      "t": 278
+      "r": 180,
+      "t": 314
     },
     "movement": "t"
   }
